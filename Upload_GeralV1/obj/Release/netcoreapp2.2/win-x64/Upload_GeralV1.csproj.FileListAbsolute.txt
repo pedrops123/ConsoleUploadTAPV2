@@ -1,0 +1,14 @@
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\bin\Release\netcoreapp2.2\win-x64\hostpolicy.dll
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\bin\Release\netcoreapp2.2\win-x64\hostfxr.dll
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\bin\Release\netcoreapp2.2\win-x64\Cargas Sistema TAP V2.exe
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\bin\Release\netcoreapp2.2\win-x64\Cargas Sistema TAP V2.deps.json
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\bin\Release\netcoreapp2.2\win-x64\Cargas Sistema TAP V2.runtimeconfig.json
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\bin\Release\netcoreapp2.2\win-x64\Cargas Sistema TAP V2.runtimeconfig.dev.json
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\bin\Release\netcoreapp2.2\win-x64\Cargas Sistema TAP V2.dll
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\bin\Release\netcoreapp2.2\win-x64\Cargas Sistema TAP V2.pdb
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Release\netcoreapp2.2\win-x64\Upload_GeralV1.csprojAssemblyReference.cache
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Release\netcoreapp2.2\win-x64\Upload_GeralV1.csproj.CoreCompileInputs.cache
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Release\netcoreapp2.2\win-x64\Upload_GeralV1.AssemblyInfoInputs.cache
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Release\netcoreapp2.2\win-x64\Upload_GeralV1.AssemblyInfo.cs
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Release\netcoreapp2.2\win-x64\Cargas Sistema TAP V2.dll
+C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Release\netcoreapp2.2\win-x64\Cargas Sistema TAP V2.pdb
