@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro.furlan\\Desktop\\Console carga V1\\Upload_GeralV1\\Upload_GeralV1.csproj": {}
+    "C:\\Users\\Pedro\\Desktop\\Console Cargas TAP\\Upload_GeralV1\\Upload_GeralV1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro.furlan\\Desktop\\Console carga V1\\Upload_GeralV1\\Upload_GeralV1.csproj": {
+    "C:\\Users\\Pedro\\Desktop\\Console Cargas TAP\\Upload_GeralV1\\Upload_GeralV1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro.furlan\\Desktop\\Console carga V1\\Upload_GeralV1\\Upload_GeralV1.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro\\Desktop\\Console Cargas TAP\\Upload_GeralV1\\Upload_GeralV1.csproj",
         "projectName": "Cargas Sistema TAP V2",
-        "projectPath": "C:\\Users\\pedro.furlan\\Desktop\\Console carga V1\\Upload_GeralV1\\Upload_GeralV1.csproj",
-        "packagesPath": "C:\\Users\\pedro.furlan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro.furlan\\Desktop\\Console carga V1\\Upload_GeralV1\\obj\\",
+        "projectPath": "C:\\Users\\Pedro\\Desktop\\Console Cargas TAP\\Upload_GeralV1\\Upload_GeralV1.csproj",
+        "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro\\Desktop\\Console Cargas TAP\\Upload_GeralV1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\pedro.furlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
