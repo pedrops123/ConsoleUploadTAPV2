@@ -9,3 +9,14 @@ C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Debug\netcorea
 C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Debug\netcoreapp2.2\Cargas Sistema TAP V2.dll
 C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Debug\netcoreapp2.2\Cargas Sistema TAP V2.pdb
 C:\Users\pedro.furlan\Desktop\Console carga V1\Upload_GeralV1\obj\Debug\netcoreapp2.2\Upload_GeralV1.csprojAssemblyReference.cache
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\bin\Debug\netcoreapp2.2\Cargas Sistema TAP V2.deps.json
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\bin\Debug\netcoreapp2.2\Cargas Sistema TAP V2.runtimeconfig.json
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\bin\Debug\netcoreapp2.2\Cargas Sistema TAP V2.runtimeconfig.dev.json
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\bin\Debug\netcoreapp2.2\Cargas Sistema TAP V2.dll
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\bin\Debug\netcoreapp2.2\Cargas Sistema TAP V2.pdb
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\obj\Debug\netcoreapp2.2\Upload_GeralV1.csprojAssemblyReference.cache
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\obj\Debug\netcoreapp2.2\Upload_GeralV1.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\obj\Debug\netcoreapp2.2\Upload_GeralV1.AssemblyInfoInputs.cache
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\obj\Debug\netcoreapp2.2\Upload_GeralV1.AssemblyInfo.cs
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\obj\Debug\netcoreapp2.2\Cargas Sistema TAP V2.dll
+C:\Users\Pedro\Desktop\Console Cargas TAP\Upload_GeralV1\obj\Debug\netcoreapp2.2\Cargas Sistema TAP V2.pdb

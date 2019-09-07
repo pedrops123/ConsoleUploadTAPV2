@@ -917,23 +917,33 @@ namespace Upload_GeralV1
 
                     if (ValidaCargo == null)
                     {
-                        Cargo NovoCargo = new Cargo();
+                        try
+                        {
+                            Cargo NovoCargo = new Cargo();
 
-                        NovoCargo.IdEmpresa = 1;
-                        NovoCargo.IdCliente = dadosEmpresaFilial.empresa;
-                        NovoCargo.IdFilial = dadosEmpresaFilial.filial;
-                        NovoCargo.Codigo = dados.CodCargo;
-                        NovoCargo.CodigoRH = dados.CodCargo;
-                        NovoCargo.CodigoCBO = dados.NumCBO;
-                        NovoCargo.Nome = dados.NomeCargo;
-                        NovoCargo.DescricaoDetalhada = dados.DescrAtividade;
-                        NovoCargo.Ativo = true;
+                            NovoCargo.IdEmpresa = 1;
+                            NovoCargo.IdCliente = dadosEmpresaFilial.empresa;
+                            NovoCargo.IdFilial = dadosEmpresaFilial.filial;
+                            NovoCargo.Codigo = dados.CodCargo;
+                            NovoCargo.CodigoRH = dados.CodCargo;
+                            NovoCargo.CodigoCBO = dados.NumCBO;
+                            NovoCargo.Nome = dados.NomeCargo;
+                            NovoCargo.DescricaoDetalhada = dados.DescrAtividade;
+                            NovoCargo.Ativo = true;
 
-                        ctx.TabelaCargo.Add(NovoCargo);
-                        ctx.SaveChanges();
-                        novoIDcargoInserido = NovoCargo.IdCargo;
-                        cargosInseridos.Add(NovoCargo);
-                        QtdCargosInseridos++;
+                            ctx.TabelaCargo.Add(NovoCargo);
+                            ctx.SaveChanges();
+                            novoIDcargoInserido = NovoCargo.IdCargo;
+                            cargosInseridos.Add(NovoCargo);
+                            QtdCargosInseridos++;
+
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine("Erro no cadastro de Cargo " + e.InnerException);
+                            
+                        }
+                       
 
                     }
 
@@ -941,20 +951,27 @@ namespace Upload_GeralV1
 
                     if (ValidaSetor == null)
                     {
-                        Setor NovoSetor = new Setor();
-                        NovoSetor.IdEmpresa = 1;
-                        NovoSetor.IdCliente = dadosEmpresaFilial.empresa;
-                        NovoSetor.IdFilial = dadosEmpresaFilial.filial;
-                        NovoSetor.Codigo = dados.CodSetor;
-                        NovoSetor.CodigoRH = dados.CodSetor;
-                        NovoSetor.Nome = dados.NomeSetor;
-                        NovoSetor.Ativo = true;
 
-                        ctx.TabelaSetor.Add(NovoSetor);
-                        ctx.SaveChanges();
-                        novoIDSetorInserido = NovoSetor.IdSetor;
-                        SetoresInseridos.Add(NovoSetor);
-                        QtdSetorInseridos++;
+                        try {
+                            Setor NovoSetor = new Setor();
+                            NovoSetor.IdEmpresa = 1;
+                            NovoSetor.IdCliente = dadosEmpresaFilial.empresa;
+                            NovoSetor.IdFilial = dadosEmpresaFilial.filial;
+                            NovoSetor.Codigo = dados.CodSetor;
+                            NovoSetor.CodigoRH = dados.CodSetor;
+                            NovoSetor.Nome = dados.NomeSetor;
+                            NovoSetor.Ativo = true;
+
+                            ctx.TabelaSetor.Add(NovoSetor);
+                            ctx.SaveChanges();
+                            novoIDSetorInserido = NovoSetor.IdSetor;
+                            SetoresInseridos.Add(NovoSetor);
+                            QtdSetorInseridos++;
+                        }catch(Exception e)
+                        {
+                            Console.WriteLine("Erro no cadastro de Setor " + e.InnerException);
+                            
+                        }
 
                     }
 
@@ -962,21 +979,32 @@ namespace Upload_GeralV1
 
                     if (ValidaCentroCusto == null && (dados.CodCentroCusto.Trim() != "" && dados.CodCentroCusto.Trim() != null) && (dados.NomeCentroCusto.Trim() != "" && dados.NomeCentroCusto.Trim() != null))
                     {
-                        CentroDeCusto NovoCentroCusto = new CentroDeCusto();
-                        NovoCentroCusto.IdEmpresa = 1;
-                        NovoCentroCusto.IdCliente = dadosEmpresaFilial.empresa;
-                        NovoCentroCusto.IdFilial = dadosEmpresaFilial.filial;
-                        NovoCentroCusto.Codigo = dados.CodCentroCusto;
-                        NovoCentroCusto.Nome = dados.NomeCentroCusto;
-                        NovoCentroCusto.Tipo = "INTERFACE";
-                        NovoCentroCusto.Ativo = true;
+                        try
+                        {
+                            CentroDeCusto NovoCentroCusto = new CentroDeCusto();
+                            NovoCentroCusto.IdEmpresa = 1;
+                            NovoCentroCusto.IdCliente = dadosEmpresaFilial.empresa;
+                            NovoCentroCusto.IdFilial = dadosEmpresaFilial.filial;
+                            NovoCentroCusto.Codigo = dados.CodCentroCusto.Trim();
+                            NovoCentroCusto.Nome = dados.NomeCentroCusto.Trim();
+                            NovoCentroCusto.Tipo = "INTERFACE";
+                            NovoCentroCusto.Ativo = true;
 
 
-                        ctx.TabelaCentroCusto.Add(NovoCentroCusto);
-                        ctx.SaveChanges();
-                        novoIDcentroCustoInserido = NovoCentroCusto.IdCentroCusto;
-                        CentroCustoInseridos.Add(NovoCentroCusto);
-                        QtdCentroCustoInseridos++;
+                            ctx.TabelaCentroCusto.Add(NovoCentroCusto);
+                            ctx.SaveChanges();
+                            novoIDcentroCustoInserido = NovoCentroCusto.IdCentroCusto;
+                            CentroCustoInseridos.Add(NovoCentroCusto);
+                            QtdCentroCustoInseridos++;
+
+
+                        }
+                        catch(Exception e)
+                        {
+                            Console.WriteLine("Erro no cadastro de Centro de Custo " + e.InnerException);
+                           
+                        }
+                        
 
                     }
 

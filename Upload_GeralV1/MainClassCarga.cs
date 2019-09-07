@@ -215,7 +215,7 @@ namespace Upload_GeralV1
                                             }
                                             catch (Exception e)
                                             {
-                                                Console.WriteLine("Houve um erro ao gravar os dados do arquivo '" + dadosArquivo.Name.Replace(".csv", "") + "' na tabela transitoria , segue mensagem de erro: \n\n " + e.Source + "\n \n" + e.Message);
+                                                Console.WriteLine("Houve um erro ao gravar os dados do arquivo '" + dadosArquivo.Name.Replace(".csv", "") + "' na tabela transitoria , segue mensagem de erro: \n\n " + e.Source + "\n \n" + e.Message + "\n \n " + e.InnerException + "\n \n ");
                                             }
                                         }
                                         else
@@ -227,7 +227,7 @@ namespace Upload_GeralV1
                                 catch (Exception e)
                                 {
                                     Console.ForegroundColor = ConsoleColor.Red;
-                                    Console.WriteLine("Houve um erro na leitura do arquivo ! '" + dadosArquivo.Name + "' \n \n  Segue detalhes dos erros : \n \n " + e.Message + "\n \n ");
+                                    Console.WriteLine("Houve um erro na leitura do arquivo ! '" + dadosArquivo.Name + "' \n \n  Segue detalhes dos erros : \n \n " + e.Message + "\n \n " + e.InnerException +"\n \n");
                                     Console.ResetColor();
                                 }
                             }
